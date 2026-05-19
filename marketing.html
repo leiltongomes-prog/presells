@@ -5,89 +5,345 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>5 Tarefas de Marketing Que Você Ainda Faz Manualmente (e Que Poderiam Estar no Piloto Automático)</title>
   <meta name="description" content="Descubra quais tarefas de marketing digital você ainda faz manualmente e como automatizá-las para ganhar tempo e vender mais todos os dias.">
-  <!-- HOTMART PIXEL START --><!-- COLE SEU PIXEL AQUI --><!-- HOTMART PIXEL END -->
+
+  <!-- ================================================
+       PIXEL DE CONVERSÃO HOTMART
+       Cole aqui o seu código do Pixel Hotmart
+       Hotmart → Ferramentas → Pixel Hotmart
+       ================================================ -->
+  <!-- HOTMART PIXEL START -->
+  <!-- COLE SEU PIXEL AQUI -->
+  <!-- HOTMART PIXEL END -->
+
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=AW-18170329756"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'AW-18170329756');
+
+    function registrarConversao() {
+      gtag('event', 'conversion', {
+        'send_to': 'AW-18170329756',
+        'event_category': 'CTA Click',
+        'event_label': 'Automatize Seu Marketing - Llovers'
+      });
+    }
+  </script>
+
   <style>
     * { margin: 0; padding: 0; box-sizing: border-box; }
-    body { font-family: 'Georgia', serif; background: #f4f6f9; color: #333; line-height: 1.7; }
-    .topbar { background: #1c2833; color: #f0b429; text-align: center; padding: 10px; font-size: 14px; font-family: Arial, sans-serif; font-weight: bold; letter-spacing: 0.5px; }
-    .hero { background: linear-gradient(135deg, #1c2833 0%, #1a5276 100%); color: #fff; text-align: center; padding: 60px 20px 50px; }
-    .hero .tag { display: inline-block; background: rgba(240,180,41,0.2); border: 1px solid rgba(240,180,41,0.5); border-radius: 20px; padding: 6px 18px; font-size: 13px; font-family: Arial, sans-serif; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 22px; color: #f0b429; }
-    .hero h1 { font-size: clamp(22px, 4vw, 40px); line-height: 1.25; max-width: 800px; margin: 0 auto 20px; font-style: italic; }
+
+    body {
+      font-family: 'Georgia', serif;
+      background: #f4f6f9;
+      color: #333;
+      line-height: 1.7;
+    }
+
+    .topbar {
+      background: #1c2833;
+      color: #f0b429;
+      text-align: center;
+      padding: 10px;
+      font-size: 14px;
+      font-family: Arial, sans-serif;
+      font-weight: bold;
+      letter-spacing: 0.5px;
+    }
+
+    .hero {
+      background: linear-gradient(135deg, #1c2833 0%, #1a5276 100%);
+      color: #fff;
+      text-align: center;
+      padding: 60px 20px 50px;
+    }
+
+    .hero .tag {
+      display: inline-block;
+      background: rgba(240,180,41,0.2);
+      border: 1px solid rgba(240,180,41,0.5);
+      border-radius: 20px;
+      padding: 6px 18px;
+      font-size: 13px;
+      font-family: Arial, sans-serif;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      margin-bottom: 22px;
+      color: #f0b429;
+    }
+
+    .hero h1 {
+      font-size: clamp(22px, 4vw, 40px);
+      line-height: 1.25;
+      max-width: 800px;
+      margin: 0 auto 20px;
+      font-style: italic;
+    }
+
     .hero h1 span { color: #f0b429; font-style: normal; }
-    .hero .subtitle { font-size: 18px; max-width: 600px; margin: 0 auto; opacity: 0.92; font-family: Arial, sans-serif; }
-    .container { max-width: 720px; margin: 0 auto; padding: 0 20px; }
+
+    .hero .subtitle {
+      font-size: 18px;
+      max-width: 600px;
+      margin: 0 auto;
+      opacity: 0.92;
+      font-family: Arial, sans-serif;
+    }
+
+    .container {
+      max-width: 720px;
+      margin: 0 auto;
+      padding: 0 20px;
+    }
+
     .intro { padding: 50px 0 30px; }
     .intro p { font-size: 18px; margin-bottom: 18px; color: #444; }
     .intro p strong { color: #1a5276; }
+
     .secrets { padding: 20px 0 40px; }
-    .secret-item { background: #fff; border-left: 5px solid #f0b429; border-radius: 0 12px 12px 0; padding: 28px 28px 24px; margin-bottom: 28px; box-shadow: 0 2px 12px rgba(0,0,0,0.07); }
-    .secret-item .number { font-size: 12px; font-family: Arial, sans-serif; font-weight: bold; color: #d4a017; text-transform: uppercase; letter-spacing: 1.5px; margin-bottom: 8px; }
+
+    .secret-item {
+      background: #fff;
+      border-left: 5px solid #f0b429;
+      border-radius: 0 12px 12px 0;
+      padding: 28px 28px 24px;
+      margin-bottom: 28px;
+      box-shadow: 0 2px 12px rgba(0,0,0,0.07);
+    }
+
+    .secret-item .number {
+      font-size: 12px;
+      font-family: Arial, sans-serif;
+      font-weight: bold;
+      color: #d4a017;
+      text-transform: uppercase;
+      letter-spacing: 1.5px;
+      margin-bottom: 8px;
+    }
+
     .secret-item h2 { font-size: 22px; color: #1c2833; margin-bottom: 14px; line-height: 1.3; }
     .secret-item p { font-size: 16px; color: #555; line-height: 1.7; }
-    .highlight-box { background: #fff3cd; border: 1px solid #f0b429; border-radius: 8px; padding: 12px 16px; margin-top: 14px; font-size: 15px; color: #7d5a00; font-family: Arial, sans-serif; }
-    .cta-mid { background: linear-gradient(135deg, #1c2833, #1a5276); border-radius: 16px; padding: 40px 28px; text-align: center; margin: 20px 0 50px; color: #fff; }
+
+    .highlight-box {
+      background: #fff3cd;
+      border: 1px solid #f0b429;
+      border-radius: 8px;
+      padding: 12px 16px;
+      margin-top: 14px;
+      font-size: 15px;
+      color: #7d5a00;
+      font-family: Arial, sans-serif;
+    }
+
+    .cta-mid {
+      background: linear-gradient(135deg, #1c2833, #1a5276);
+      border-radius: 16px;
+      padding: 40px 28px;
+      text-align: center;
+      margin: 20px 0 50px;
+      color: #fff;
+    }
+
     .cta-mid h3 { font-size: 24px; margin-bottom: 12px; }
     .cta-mid p { font-size: 16px; opacity: 0.9; margin-bottom: 28px; font-family: Arial, sans-serif; }
-    .btn-cta { display: inline-block; background: linear-gradient(135deg, #f0b429, #d4a017); color: #1c2833; font-family: Arial, sans-serif; font-size: 18px; font-weight: bold; padding: 18px 40px; border-radius: 50px; text-decoration: none; box-shadow: 0 6px 20px rgba(240,180,41,0.4); transition: transform 0.2s; }
+
+    .btn-cta {
+      display: inline-block;
+      background: linear-gradient(135deg, #f0b429, #d4a017);
+      color: #1c2833;
+      font-family: Arial, sans-serif;
+      font-size: 18px;
+      font-weight: bold;
+      padding: 18px 40px;
+      border-radius: 50px;
+      text-decoration: none;
+      box-shadow: 0 6px 20px rgba(240,180,41,0.4);
+      transition: transform 0.2s;
+      letter-spacing: 0.5px;
+    }
+
     .btn-cta:hover { transform: translateY(-2px); }
     .btn-cta small { display: block; font-size: 12px; font-weight: normal; opacity: 0.8; margin-top: 4px; }
+
     .testimonials { padding: 10px 0 50px; }
     .testimonials h2 { font-size: 26px; color: #1c2833; text-align: center; margin-bottom: 30px; }
-    .testimonial { background: #fff; border-radius: 12px; padding: 24px; margin-bottom: 20px; box-shadow: 0 2px 10px rgba(0,0,0,0.06); border: 1px solid #e8ecf0; }
+
+    .testimonial {
+      background: #fff;
+      border-radius: 12px;
+      padding: 24px;
+      margin-bottom: 20px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.06);
+      border: 1px solid #e8ecf0;
+    }
+
     .testimonial .stars { color: #f0b429; font-size: 18px; margin-bottom: 10px; }
     .testimonial p { font-size: 15px; color: #555; font-style: italic; margin-bottom: 12px; }
     .testimonial .author { font-size: 14px; font-family: Arial, sans-serif; font-weight: bold; color: #1a5276; font-style: normal; }
-    .cta-final { background: linear-gradient(135deg, #1c2833, #1a5276); color: #fff; padding: 60px 20px; text-align: center; }
+
+    .cta-final {
+      background: linear-gradient(135deg, #1c2833, #1a5276);
+      color: #fff;
+      padding: 60px 20px;
+      text-align: center;
+    }
+
     .cta-final h2 { font-size: clamp(22px, 3.5vw, 34px); margin-bottom: 16px; line-height: 1.3; }
     .cta-final p { font-size: 17px; opacity: 0.92; max-width: 540px; margin: 0 auto 32px; font-family: Arial, sans-serif; }
-    .btn-cta-final { display: inline-block; background: #f0b429; color: #1c2833; font-family: Arial, sans-serif; font-size: 20px; font-weight: bold; padding: 20px 50px; border-radius: 50px; text-decoration: none; box-shadow: 0 6px 24px rgba(0,0,0,0.3); transition: transform 0.2s; }
+
+    .btn-cta-final {
+      display: inline-block;
+      background: #f0b429;
+      color: #1c2833;
+      font-family: Arial, sans-serif;
+      font-size: 20px;
+      font-weight: bold;
+      padding: 20px 50px;
+      border-radius: 50px;
+      text-decoration: none;
+      box-shadow: 0 6px 24px rgba(0,0,0,0.3);
+      transition: transform 0.2s;
+    }
+
     .btn-cta-final:hover { transform: translateY(-3px); }
     .btn-cta-final small { display: block; font-size: 13px; font-weight: normal; margin-top: 5px; color: #7d5a00; }
-    footer { background: #f5f5f5; text-align: center; padding: 30px 20px; font-size: 13px; color: #888; font-family: Arial, sans-serif; }
+
+    footer {
+      background: #f5f5f5;
+      text-align: center;
+      padding: 30px 20px;
+      font-size: 13px;
+      color: #888;
+      font-family: Arial, sans-serif;
+    }
+
     footer a { color: #888; text-decoration: underline; }
-    @media (max-width: 600px) { .hero { padding: 40px 16px 36px; } .intro p { font-size: 16px; } .secret-item { padding: 22px 18px; } .secret-item h2 { font-size: 19px; } .btn-cta, .btn-cta-final { font-size: 16px; padding: 16px 28px; } }
+
+    @media (max-width: 600px) {
+      .hero { padding: 40px 16px 36px; }
+      .intro p { font-size: 16px; }
+      .secret-item { padding: 22px 18px; }
+      .secret-item h2 { font-size: 19px; }
+      .btn-cta, .btn-cta-final { font-size: 16px; padding: 16px 28px; }
+    }
   </style>
 </head>
+
 <body>
-  <div class="topbar">🤖 Se você ainda faz isso manualmente, está perdendo tempo e dinheiro todos os dias</div>
+
+  <div class="topbar">
+    🤖 Se você ainda faz isso manualmente, está perdendo tempo e dinheiro todos os dias
+  </div>
+
   <section class="hero">
     <div class="tag">Para empreendedores e profissionais de marketing</div>
-    <h1><span>5 Tarefas de Marketing</span> Que Você Ainda<br>Faz Manualmente (e Que Deveriam Estar no<br><span>Piloto Automático</span>)</h1>
+    <h1>
+      <span>5 Tarefas de Marketing</span> Que Você Ainda<br>
+      Faz Manualmente (e Que Deveriam Estar no<br>
+      <span>Piloto Automático</span>)
+    </h1>
     <p class="subtitle">Como profissionais que faturam online estão usando automação para trabalhar menos e vender mais — todos os dias, mesmo dormindo</p>
   </section>
+
   <div class="container">
+
     <section class="intro">
       <p>Existe uma diferença clara entre quem <strong>trabalha no negócio</strong> e quem <strong>trabalha com o negócio</strong>. O primeiro está sempre apagando incêndio. O segundo construiu sistemas que geram resultado mesmo quando está longe da tela.</p>
       <p>A automação de marketing não é mais coisa só de grandes empresas. Hoje qualquer negócio digital pode — e deveria — usar as ferramentas certas para parar de perder dinheiro com trabalho manual repetitivo.</p>
     </section>
+
     <section class="secrets">
-      <div class="secret-item"><div class="number">Tarefa #1</div><h2>Responder leads manualmente no WhatsApp ou e-mail</h2><p>Cada lead que entra em contato e não recebe resposta rápida é um lead perdido. A automação de respostas iniciais garante que nenhum contato fique sem atenção, 24 horas por dia.</p><div class="highlight-box">💡 Negócios com resposta automática em menos de 5 minutos convertem até 9x mais do que os que respondem depois de 1 hora.</div></div>
-      <div class="secret-item"><div class="number">Tarefa #2</div><h2>Enviar e-mails de boas-vindas e sequências manualmente</h2><p>Se você ainda envia e-mails um a um para novos contatos, está desperdiçando horas que poderiam ser automáticas. Uma sequência de e-mails bem configurada nutre o lead, cria relacionamento e prepara para a venda — sem você precisar tocar em nada.</p></div>
-      <div class="secret-item"><div class="number">Tarefa #3</div><h2>Publicar conteúdo nas redes sociais em tempo real</h2><p>Profissionais que entendem de automação não ficam dependentes do celular para postar nas redes. Eles criam o conteúdo em bloco uma vez por semana e agendam tudo. O resultado: mais consistência, mais alcance, e mais tempo livre.</p></div>
-      <div class="secret-item"><div class="number">Tarefa #4</div><h2>Acompanhar e qualificar leads manualmente</h2><p>Saber quais leads estão prontos para comprar e quais precisam de mais nutrição é uma das tarefas mais demoradas do marketing. Com automação, esse processo acontece sozinho — e você só entra em contato com quem realmente está pronto.</p></div>
-      <div class="secret-item"><div class="number">Tarefa #5</div><h2>Fazer follow-up de carrinho abandonado manualmente</h2><p>Estudos mostram que entre 60% e 80% das pessoas que iniciam uma compra online não finalizam. Uma sequência automatizada de recuperação de carrinho recupera boa parte dessas vendas sem nenhum esforço manual.</p><div class="highlight-box">💡 Negócios com automação de recuperação de carrinho recuperam em média 15% das vendas perdidas automaticamente.</div></div>
+
+      <div class="secret-item">
+        <div class="number">Tarefa #1</div>
+        <h2>Responder leads manualmente no WhatsApp ou e-mail</h2>
+        <p>Cada lead que entra em contato e não recebe resposta rápida é um lead perdido. A automação de respostas iniciais — seja via WhatsApp, e-mail ou chatbot — garante que nenhum contato fique sem atenção, 24 horas por dia.</p>
+        <div class="highlight-box">💡 Negócios com resposta automática em menos de 5 minutos convertem até 9x mais do que os que respondem depois de 1 hora.</div>
+      </div>
+
+      <div class="secret-item">
+        <div class="number">Tarefa #2</div>
+        <h2>Enviar e-mails de boas-vindas e sequências manualmente</h2>
+        <p>Se você ainda envia e-mails um a um para novos contatos, está desperdiçando horas que poderiam ser automáticas. Uma sequência de e-mails bem configurada nutre o lead, cria relacionamento e prepara para a venda — sem você precisar tocar em nada.</p>
+      </div>
+
+      <div class="secret-item">
+        <div class="number">Tarefa #3</div>
+        <h2>Publicar conteúdo nas redes sociais em tempo real</h2>
+        <p>Profissionais que entendem de automação não ficam dependentes do celular para postar nas redes. Eles criam o conteúdo em bloco uma vez por semana e agendam tudo. O resultado: mais consistência, mais alcance, e mais tempo livre.</p>
+      </div>
+
+      <div class="secret-item">
+        <div class="number">Tarefa #4</div>
+        <h2>Acompanhar e qualificar leads manualmente</h2>
+        <p>Saber quais leads estão prontos para comprar e quais precisam de mais nutrição é uma das tarefas mais demoradas do marketing. Com automação, esse processo acontece sozinho — e você só entra em contato com quem realmente está pronto para a conversa.</p>
+      </div>
+
+      <div class="secret-item">
+        <div class="number">Tarefa #5</div>
+        <h2>Fazer follow-up de carrinho abandonado manualmente</h2>
+        <p>Estudos mostram que entre 60% e 80% das pessoas que iniciam uma compra online não finalizam. Uma sequência automatizada de recuperação de carrinho — via e-mail ou WhatsApp — recupera boa parte dessas vendas sem nenhum esforço manual.</p>
+        <div class="highlight-box">💡 Negócios com automação de recuperação de carrinho recuperam em média 15% das vendas perdidas automaticamente.</div>
+      </div>
+
     </section>
+
     <div class="cta-mid">
       <h3>Pronto para colocar seu marketing no piloto automático?</h3>
       <p>O curso <strong>Automatize Seu Marketing</strong> ensina passo a passo como configurar todas essas automações — mesmo que você não seja técnico.</p>
-      <a href="https://llovers.com.br/institucional?sck=automatize_seu_marketing&ref=Q105877983N" class="btn-cta" target="_blank">Quero conhecer o Curso de Automação<small>➜ Ver conteúdo completo do curso</small></a>
+      <a href="https://llovers.com.br/institucional?sck=automatize_seu_marketing&ref=Q105877983N" class="btn-cta" target="_blank" onclick="registrarConversao()">
+        Quero conhecer o Curso de Automação
+        <small>➜ Ver conteúdo completo do curso</small>
+      </a>
     </div>
+
     <section class="testimonials">
       <h2>Quem já aplicou está falando:</h2>
-      <div class="testimonial"><div class="stars">★★★★★</div><p>"Eu gastava pelo menos 3 horas por dia respondendo mensagens e mandando e-mails. Depois que aprendi a automatizar, esse tempo caiu para 20 minutos — e minhas vendas aumentaram porque nenhum lead fica esperando mais."</p><div class="author">— Ricardo A., consultor de marketing digital</div></div>
-      <div class="testimonial"><div class="stars">★★★★★</div><p>"A automação de sequência de e-mails foi o que mais impactou meu faturamento. Eu configurei uma vez e hoje ela continua funcionando, convertendo leads em clientes todos os dias sem eu precisar fazer nada."</p><div class="author">— Mariana T., infoprodutora</div></div>
-      <div class="testimonial"><div class="stars">★★★★★</div><p>"Sempre achei que automação era coisa complicada, para quem entende de tecnologia. O curso desmistificou isso completamente. Configurei tudo em um final de semana e já no primeiro mês recuperei carrinho de 4 vendas que teriam sido perdidas."</p><div class="author">— Carlos E., dono de e-commerce</div></div>
+
+      <div class="testimonial">
+        <div class="stars">★★★★★</div>
+        <p>"Eu gastava pelo menos 3 horas por dia respondendo mensagens e mandando e-mails. Depois que aprendi a automatizar, esse tempo caiu para 20 minutos — e minhas vendas aumentaram porque nenhum lead fica esperando mais."</p>
+        <div class="author">— Ricardo A., consultor de marketing digital</div>
+      </div>
+
+      <div class="testimonial">
+        <div class="stars">★★★★★</div>
+        <p>"A automação de sequência de e-mails foi o que mais impactou meu faturamento. Eu configurei uma vez e hoje ela continua funcionando, convertendo leads em clientes todos os dias sem eu precisar fazer nada."</p>
+        <div class="author">— Mariana T., infoprodutora</div>
+      </div>
+
+      <div class="testimonial">
+        <div class="stars">★★★★★</div>
+        <p>"Sempre achei que automação era coisa complicada, para quem entende de tecnologia. O curso desmistificou isso completamente. Configurei tudo em um final de semana e já no primeiro mês recuperei carrinho de 4 vendas que teriam sido perdidas."</p>
+        <div class="author">— Carlos E., dono de e-commerce</div>
+      </div>
+
     </section>
+
   </div>
+
   <section class="cta-final">
     <h2>Pare de trabalhar mais. Comece a trabalhar de forma mais inteligente.</h2>
     <p>O Curso Automatize Seu Marketing ensina as ferramentas e estratégias que profissionais usam para escalar resultados sem aumentar horas de trabalho.</p>
-    <a href="https://llovers.com.br/institucional?sck=automatize_seu_marketing&ref=Q105877983N" class="btn-cta-final" target="_blank">✅ Acessar o Curso de Automação Agora<small>Clique aqui e veja como funciona</small></a>
+    <a href="https://llovers.com.br/institucional?sck=automatize_seu_marketing&ref=Q105877983N" class="btn-cta-final" target="_blank" onclick="registrarConversao()">
+      ✅ Acessar o Curso de Automação Agora
+      <small>Clique aqui e veja como funciona</small>
+    </a>
   </section>
+
   <footer>
-    <p>Este site contém links de afiliado. Ao clicar e realizar uma compra, posso receber uma comissão sem custo adicional para você.</p><br>
-    <p><a href="#">Política de Privacidade</a> &nbsp;|&nbsp; <a href="#">Termos de Uso</a> &nbsp;|&nbsp; <a href="mailto:contato@seusite.com.br">Contato</a></p><br>
+    <p>Este site contém links de afiliado. Ao clicar e realizar uma compra, posso receber uma comissão sem custo adicional para você.</p>
+    <br>
+    <p>
+      <a href="#">Política de Privacidade</a> &nbsp;|&nbsp;
+      <a href="#">Termos de Uso</a> &nbsp;|&nbsp;
+      <a href="mailto:contato@seusite.com.br">Contato</a>
+    </p>
+    <br>
     <p>© 2025 — Todos os direitos reservados</p>
   </footer>
+
 </body>
 </html>
